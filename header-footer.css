@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* 
+Limestone White: #F9F8F6
+Basalt Black: #222222
+Umayyad Gold: #C5A059
+Jasmine Green: #4A7C59
+Deep Crimson: #8B0000
+*/
+
+* {
+    margin: 0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: "Open Sans", sans-serif;
+    background-color: #F9F8F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Playfair Display", serif;
+    color: #222222;
+}
+
+header h1 {
+    color: #C5A059;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    transition: 0.3s;
+}
+
+header nav a:hover {
+    border-bottom: 3px #C5A059 solid;
+    color: #F9F8F6;
+}
+
+#branch1 {
+    position: fixed;
+    top: -3rem;
+    left: -1rem;
+    transform: scale(0.6) rotate(-120deg) ;
+}
+
+#branch2 {
+    position: fixed;
+    right: -2rem;
+    bottom: -8rem;
+    transform: scale(0.6) rotate(120deg) ;
+}
+
+header {
+    background-color: #4A7C59;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    color: #F9F8F6;
+    background-color: #4A7C59;
+    padding: 1rem;
+}
