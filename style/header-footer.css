@@ -81,6 +81,7 @@ footer {
     header {
         flex-direction: column;
         gap: 1rem;
+        position: static;
     }
 
     header nav {
