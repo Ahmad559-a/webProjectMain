@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <link rel="stylesheet" href="./style/contact.css">
+    <link rel="stylesheet" href="./style/header-footer.css">
+</head>
+<body>
+
+     <header>
+        <h1 id="logo">Damascus</h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="places.html">Places</a>
+            <a href="details.html">Place Details</a>
+            <a href="discover.html">Discover</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+        <img src="./assets/branch.png" alt="branch.png" id="branch1" class="branch">
+
+    <br><br>
+    
+<div class="container">
+    <h1>Our Team</h1>
+    <div class="section">
+        <div class="member">
+            <img src="./assets/Alhasan.png" alt="Alhasan picture"><br><br>
+            <h3>Ahmad Al-hasan</h3><br>
+            <p>Software Engneering</p><br>
+            <p>ahm20241089@std.psut.edu.jo</p><br>
+
+        </div>
+        <div class="member">
+            <img src="./assets/diry.jpg" alt="Diry picture"><br><br>
+            <h3>Ahmad Diry</h3><br>
+            <p>Computer Science</p><br>
+            <p>ahm20241078@std.psut.edu.jo</p><br>
+
+        </div>
+        <div class="member">
+            <img src="./assets/omar.jpg" alt="Omar picture"><br><br>
+            <h3>Omar AbaZaid</h3><br>
+            <p>Computer Science</p><br>
+            <p>oma20241079@std.psut.edu.jo</p><br>
+
+        </div>
+    </div>
+    <hr>
+    <br>
+
+    <h1>Contact us</h1>
+    <br>
+    <p id="error-message"></p>
+    <p id="success-message"></p>
+    <br>
+
+    <form id="contact-form">
+        <div class="group">
+            <label for="name"><h2>Name</h2><input type="text" id="name" placeholder="Enter your name"></label>
+        </div>
+          <div class="group">
+            <label for="email"><h2>Email</h2><input type="email" id="email" placeholder="Enter your email"></label>
+        </div>
+        <div class="group">
+            <label for="subject"><h2>Subject</h2><input type="text" id="subject" placeholder="Enter subject"></label>
+        </div>
+          <div class="group">
+            <label for="message"><h2>Message</h2><textarea rows="4" id="message" placeholder="Enter your message"></textarea></label>
+        </div>
+            <button type="submit">Send Message</button>
+
+    </form>
+
+</div>
+    <br><br>
+    <img src="./assets/branch.png" alt="branch.png" id="branch2" class="branch">
+
+ <footer>
+        &copy; Web Project Team
+    </footer>
+
+<script src="./js/contact.js"></script>
+
+</body>
+</html>

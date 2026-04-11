@@ -1,0 +1,89 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f7;
+}
+#branch1 {
+    position: fixed;
+    top: -3rem;
+    left: -1rem;
+    transform: scale(0.6) rotate(-120deg) ;
+}
+h1{
+    text-align: center;
+    color: rgb(148, 138, 32);
+}
+h2{
+    text-align: start;
+    color: rgb(70, 44, 12);
+
+}
+
+#branch2 {
+    position: fixed;
+    right: -2rem;
+    bottom: -8rem;
+    transform: scale(0.6) rotate(120deg) ;
+}
+.container{
+    max-width: 1100px;
+    background: white;
+    margin: auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+.member img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+    transition: 0.3s;
+}
+.member img:hover{
+    border: 2px solid #542929;
+}
+.group{
+    margin-bottom: 20px;
+
+}
+.group label{
+    font-weight: bold;
+    display: block;
+}
+.group input,.group textarea{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #cdcbcb;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+button{
+    background-color: #29a746;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: #1c8a36;
+}
+#error-message{
+    color: red;
+}
+#success-message{
+    color: green;
+}
